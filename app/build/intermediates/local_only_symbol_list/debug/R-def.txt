@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable backdrop
+drawable bottom_pipe
+drawable bottom_pipe_small
+drawable dragon
+drawable dragon2
+drawable dragon2_small
+drawable dragon3
+drawable dragon3_small
+drawable dragon4
+drawable dragon4_small
+drawable dragon_small
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable play
+drawable top_pipe
+drawable top_pipe_small
+id imageButton3
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Flappy_bird
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon_small.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_top_pipe_small.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\top_pipe_small.png"
+    },
+    {
+        "merged": "com.example.flappy_bird.app-merged_res-29:/drawable_dragon3_small.png.flat",
+        "source": "com.example.flappy_bird.app-main-31:/drawable/dragon3_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon4_small.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon4_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon4.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon4.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon2_small.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon2_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_backdrop.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\backdrop.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon2.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon2.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_bottom_pipe.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\bottom_pipe.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.flappy_bird.app-merged_res-29:/drawable_dragon2_small.png.flat",
+        "source": "com.example.flappy_bird.app-main-31:/drawable/dragon2_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_play.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon3_small.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon3_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_pipe_upsidedown.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\pipe_upsidedown.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.flappy_bird.app-merged_res-29:/drawable_dragon4_small.png.flat",
+        "source": "com.example.flappy_bird.app-main-31:/drawable/dragon4_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_bottom_pipe_small.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\bottom_pipe_small.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_pipe.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\pipe.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_top_pipe.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\top_pipe.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-pngs-24:\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-merged_res-29:\\drawable_dragon3.png.flat",
+        "source": "C:\\Users\\joshb\\.gradle\\daemon\\7.4\\com.example.flappy_bird.app-main-31:\\drawable\\dragon3.png"
+    }
+]
