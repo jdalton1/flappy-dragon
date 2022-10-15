@@ -8,12 +8,16 @@ import android.graphics.Canvas;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.view.Display;
+import android.view.MotionEvent;
 import android.view.View;
 import android.os.Handler;
+
+import java.util.Random;
 
 
 public class GameView extends View{
 
+    // Background creation
     Handler handler;
     Runnable runnable;
     final int UPDATE_MILLIS = 30;
@@ -23,8 +27,26 @@ public class GameView extends View{
     int deviceWidth, deviceHeight;
     Rect rect;
 
+    // Dragon placement/movement variables
     Bitmap[] dragons;
     int dragonFrame = 0;
+    int velocity = 0;
+    int gravity = 3;
+    int dragonX, dragonY;
+
+    // Game over variable
+    boolean gameState = false;
+
+    // Pipe creation/placement
+    Bitmap topPipe, bottomPipe;
+    int gap = 450;
+    int minTubeOffset, maxTubeOffset;
+    int numberOfTubes = 4;
+    int distanceBetweenTubes;
+    int[] pipeX = new int[numberOfTubes];
+    int[] topPipeY = new int[numberOfTubes];
+    Random random;
+    int pipeVelocity = 8;
 
     public GameView(Context context) {
         super(context);
@@ -36,6 +58,8 @@ public class GameView extends View{
             }
         };
         background = BitmapFactory.decodeResource(getResources(),R.drawable.backdrop);
+        topPipe = BitmapFactory.decodeResource(getResources(),R.drawable.top_pipe_small);
+        bottomPipe = BitmapFactory.decodeResource(getResources(),R.drawable.bottom_pipe_small);
         display = ((Activity)getContext()).getWindowManager().getDefaultDisplay();
         point = new Point();
         display.getSize(point);
@@ -44,10 +68,25 @@ public class GameView extends View{
         rect = new Rect(0,0,deviceWidth,deviceHeight);
 
         dragons = new Bitmap[4];
-        dragons[0] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon);
-        dragons[1] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon2);
-        dragons[2] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon3);
-        dragons[3] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon4);
+        dragons[0] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon_small);
+        dragons[1] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon2_small);
+        dragons[2] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon3_small);
+        dragons[3] = BitmapFactory.decodeResource(getResources(),R.drawable.dragon4_small);
+
+        dragonX = deviceWidth/2 - dragons[0].getWidth()/2;
+        dragonY = deviceHeight/2 - dragons[0].getHeight()/2;
+
+        distanceBetweenTubes = deviceWidth * 3/4;
+        minTubeOffset = gap / 2;
+        maxTubeOffset = deviceHeight - minTubeOffset - gap;
+        random = new Random();
+
+        for (int i=0;i<numberOfTubes;i++){
+            pipeX[i] = deviceWidth + i * distanceBetweenTubes;
+            topPipeY[i] = minTubeOffset + random.nextInt(maxTubeOffset - minTubeOffset + 1);
+        }
+
+
 
 
     }
@@ -77,6 +116,38 @@ public class GameView extends View{
                 break;
         }
 
+        if (gameState) {
+            if (dragonY < deviceHeight - dragons[0].getHeight() || velocity < 0) {
+                velocity += gravity;
+                dragonY += velocity;
+            }
+
+            for (int i=0;i<numberOfTubes;i++) {
+                pipeX[i] -= pipeVelocity;
+                if (pipeX[i] < -topPipe.getWidth()){
+                    pipeX[i] += numberOfTubes * distanceBetweenTubes;
+                    topPipeY[i] = minTubeOffset + random.nextInt(maxTubeOffset - minTubeOffset + 1);
+                }
+                canvas.drawBitmap(topPipe, pipeX[i], topPipeY[i] - topPipe.getHeight(), null);
+                canvas.drawBitmap(bottomPipe, pipeX[i], topPipeY[i] + gap, null);
+            }
+        }
+
+        canvas.drawBitmap(dragons[dragonFrame],dragonX,
+                dragonY,null);
+
         handler.postDelayed(runnable,UPDATE_MILLIS);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+
+        int action = event.getAction();
+        if(action == MotionEvent.ACTION_DOWN){
+             velocity = -25;
+             gameState = true;
+        }
+
+        return true;
     }
 }
