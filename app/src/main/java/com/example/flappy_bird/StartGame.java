@@ -10,6 +10,7 @@ public class StartGame extends Activity {
 
     GameView gameView;
 
+    // Starts the GameView Class
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
