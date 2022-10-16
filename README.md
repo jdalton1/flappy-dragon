@@ -5,7 +5,7 @@ A clone of the game Flappy Bird, Flappy Dragon accepts touch input from the user
 I have wanted to not only practice my Java, but also develop an app. This was a great intoduction for me to learn how to draw to the screen using Bitmap, 
 as well as how to use Events to accept touch input. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/jyZRkBTZmHs)
 
 
 # Development Environment
